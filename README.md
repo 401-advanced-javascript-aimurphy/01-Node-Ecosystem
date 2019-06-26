@@ -5,7 +5,7 @@
 ### Author: Ai with assist from my new friend AJ
 
 ### Links and Resources
-* [submission PR--I'm a liar I pushed to master whoops](https://github.com/401-advanced-javascript-aimurphy/01-Node-Ecosystem)
+* [submission PR--I'm a liar I pushed to master whoops](https://github.com/401-advanced-javascript-aimurphy/01-Node-Ecosystem/compare/pr?expand=1)
 * [![Build Status](https://travis-ci.com/401-advanced-javascript-aimurphy/01-Node-Ecosystem.svg?branch=master)](https://travis-ci.com/401-advanced-javascript-aimurphy/01-Node-Ecosystem)
 
 ### Modules
