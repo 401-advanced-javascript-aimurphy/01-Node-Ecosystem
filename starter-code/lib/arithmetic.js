@@ -12,16 +12,18 @@ arithmetic.add = function(arr) {
 };
 
 arithmetic.subtract = function (arr) {
-  let difference = 0;
-  for (let v of arr) {
-    if( typeof v !== "number") { return null; }
-    difference -= v;
+  let difference = arr[0];
+  console.log(difference);
+  for (let i=1;i<=arr.length;i++) {
+    if( typeof arr[i] !== "number") { return null; }
+    difference -= arr[i];
   }
-  return difference;
+  console.log(difference);
+  return difference; 
 };
 
 arithmetic.multiply = function(arr) {
-  let product = 0;
+  let product = 1;
   for (let v of arr) {
     if( typeof v !== "number") { return null; }
     product *= v;

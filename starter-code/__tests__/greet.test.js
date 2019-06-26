@@ -9,7 +9,7 @@ describe('greet module', ()=>{
 });
 
 describe('greet module', ()=>{
-  it('greets a string', ()=>{
-    expect(greet.ppl('Susan')).toBe('Bonjour, Susan!');
+  it('doesnt greet not a string', ()=>{
+    expect(greet.ppl(2)).toBe(null);
   });
 });
