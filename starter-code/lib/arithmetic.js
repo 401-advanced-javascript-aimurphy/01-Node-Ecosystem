@@ -2,6 +2,7 @@
 
 let arithmetic = module.exports = {};
 
+
 arithmetic.add = function(arr) {
   let sum = 0;
   for (let v of arr) {
@@ -12,14 +13,7 @@ arithmetic.add = function(arr) {
 };
 
 arithmetic.subtract = function (arr) {
-  let difference = arr[0];
-  console.log(difference);
-  for (let i=1;i<=arr.length;i++) {
-    if( typeof arr[i] !== "number") { return null; }
-    difference -= arr[i];
-  }
-  console.log(difference);
-  return difference; 
+  return arr.reduce((acc,v)=>acc-v);
 };
 
 arithmetic.multiply = function(arr) {
