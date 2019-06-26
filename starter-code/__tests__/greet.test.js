@@ -1,10 +1,12 @@
 'use strict';
 
 const greet = require('../lib/greet.js');
+const faker = require('faker');
+let name = faker.name.findName();
 
 describe('greet module', ()=>{
   it('greets a string', ()=>{
-    expect(greet.ppl('Susan')).toBe('Bonjour, Susan!');
+    expect(greet.ppl(name)).toBe(`Bonjour, ${name}!`);
   });
 });
 

@@ -2,6 +2,7 @@
 
 let arithmetic = module.exports = {};
 
+// let validation = still needs validation
 
 arithmetic.add = function(arr) {
   let sum = 0;
