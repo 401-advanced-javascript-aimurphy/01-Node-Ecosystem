@@ -6,8 +6,8 @@ let greet = module.exports = {};
 
 // The greet function should return the input name, concatenated with “hello “: eg. (“hello susan”)
 
-exports.greet = (str) =>{
+greet.ppl = function(str){
   if(typeof str !== 'string'){return null;}
   return `Bonjour, ${str}!`;
-}
+};
 // The greet function should return null if the input is not a string
